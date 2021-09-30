@@ -1,0 +1,7 @@
+.lead__caption{
+    letter-spacing: .2rem;
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+    justify-self: start;
+    margin: 0.5rem 0 0;
+}

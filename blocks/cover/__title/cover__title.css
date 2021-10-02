@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 738px) {
     .cover__title {
         margin: auto;
         font-size: 9.375vw;
@@ -26,22 +26,7 @@
     }
 }
 
-
-@media screen and (max-width: 640px) {
-    .cover__title {
-      font-size: 2rem;
-      line-height: 2.188rem;
-      margin-top: 25%;
-    }
-}
-
-@media screen and (max-width: 365px) {
-    .cover__title {
-      margin-top: 15%;
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
     .cover__title {
       margin-top: 20%;
     }

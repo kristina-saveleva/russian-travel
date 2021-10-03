@@ -14,4 +14,4 @@
 
 **URL**
 
-https://github.com/kristina-saveleva/russian-travel/tree/master/blocks
+https://kristina-saveleva.github.io/russian-travel/

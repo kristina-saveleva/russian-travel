@@ -11,18 +11,18 @@
 
     <body>
         <div class="page">
+            <header class="header">
+                <img src="./image/__logo.svg" alt="лого" class="header__logo">
+                <ul class="header__lang-link">
+                    <li>
+                        <a href="#" class="header__link header__link_act link">Ru</a>
+                    </li>
+                    <li>
+                        <a href="#" class="header__link link">En</a>
+                    </li>
+                </ul>
+            </header>
             <main>
-                <header class="header">
-                    <img src="./image/__logo.svg" alt="лого" class="header__logo">
-                    <ul class="header__lang-link">
-                        <li>
-                            <a href="#" class="header__link link header__link_act">Ru</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header__link link">En</a>
-                        </li>
-                    </ul>
-                </header>
                 <section class="lead">
                     <h1 class="lead__title">Путешествия по&nbsp;России</h1>
                     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -49,42 +49,18 @@
                     </ul>
                 </section>
                 <section class="photo-grid">
-                    <div class="photo-grid__container">
-                        <img src="./image/__item.png" alt="вид из окна" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(1).png" alt="горы и облака" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(2).png" alt="поля" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(3).png" alt="туман" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(4).png" alt="лед" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(5).png" alt="море" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(6).png" alt="горы" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(7).png" alt="пешеходный знак" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(8).png" alt="туман и горы" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(9).png" alt="солнце в горах" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(10).png" alt="обрыв" class="photo-grid__item">
-                    </div>
-                    <div class="photo-grid__container">
-                        <img src="./image/__item(11).png" alt="облака в горах" class="photo-grid__item">
-                    </div>
+                        <img class="photo-grid__item" src="./image/__item.png" alt="вид из окна">
+                        <img class="photo-grid__item" src="./image/__item(1).png" alt="горы и облака">
+                        <img class="photo-grid__item" src="./image/__item(2).png" alt="поля">
+                        <img class="photo-grid__item" src="./image/__item(3).png" alt="туман">
+                        <img class="photo-grid__item" src="./image/__item(4).png" alt="туман">
+                        <img class="photo-grid__item" src="./image/__item(5).png" alt="море">
+                        <img class="photo-grid__item" src="./image/__item(6).png" alt="горы">
+                        <img class="photo-grid__item" src="./image/__item(7).png" alt="пешеходный знак">
+                        <img class="photo-grid__item" src="./image/__item(8).png" alt="туман и горы">
+                        <img class="photo-grid__item" src="./image/__item(9).png" alt="солнце в горах">
+                        <img class="photo-grid__item" src="./image/__item(10).png" alt="обрыв">
+                        <img class="photo-grid__item" src="./image/__item(11).png" alt="облака в горах">
                 </section>
                 <section class="places">
                     <div class="places__place">
@@ -93,9 +69,7 @@
                             <p class="places__url-heading">URL</p>
                             <a href="http://park-kosa.ru" target="_blank" class="places__url link">park-kosa.ru</a>
                         </div>
-                        <div class="places__container">
                             <img src="./image/__image(4).jpg" alt="Куршская коса" class="places__image">
-                        </div>
                         <div class="places__paragraphs">
                             <p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
                                 горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского
@@ -113,9 +87,7 @@
                             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
                                 class="places__url link">National Geographic</a>
                         </div>
-                        <div class="places__container">
                             <img src="./image/__image(3).jpg" alt="Кольский" class="places__image">
-                        </div>
                         <div class="places__paragraphs">
                             <p class="places__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
                                 которой на юг —
@@ -135,9 +107,7 @@
                             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank"
                                 class="places__url link">Facebook</a>
                         </div>
-                        <div class="places__container">
                             <img src="./image/__image.jpg" alt="Алтай" class="places__image">
-                        </div>
                         <div class="places__paragraphs">
                             <p class="places__paragraph">Алтай — одно из красивейших мест в России.
                                 В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами,
@@ -154,9 +124,7 @@
                             <p class="places__url-heading">URL</p>
                             <a href="https://vk.com/baikalmile" target="_blank" class="places__url link">https://vk.com/baikalmile</a>
                         </div>
-                        <div class="places__container">
                             <img src="./image/__image(1).jpg" alt="Зимний Байкал" class="places__image">
-                        </div>
                         <div class="places__paragraphs">
                             <p class="places__paragraph">Всем известен Байкал как крупнейшее озеро
                                 в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших
@@ -173,9 +141,7 @@
                             <p class="places__url-heading">URL</p>
                             <a href="http://vodlozero.ru" target="_blank" class="places__url link">http://vodlozero.ru/</a>
                         </div>
-                        <div class="places__container">
                             <img src="./image/__image(2).jpg" alt="Карелия" class="places__image">
-                        </div>
                         <div class="places__paragraphs">
                             <p class="places__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
                                 лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -188,9 +154,10 @@
                     </div>
                 </section>
                 <section class="cover">
-                    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_self" class="cover__link"></a>
-                    <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_self" class="cover__link">
+                        <h2 class="cover__title">До Байкала «на собаках»</h2>
+                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                    </a>
                     <div class="cover__background"></div>
                 </section>
             </main>

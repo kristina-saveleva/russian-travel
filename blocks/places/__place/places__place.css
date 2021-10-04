@@ -1,28 +1,33 @@
 .places__place {
-  width: 100%;
   display: grid;
-  grid-template-columns: 460px 1fr;
-  grid-template-rows: repeat(3, min-content);
-  grid-column-gap: 2.5rem;
+  padding-bottom: 80px;
+  grid-template-columns: 47% 1fr;
+  grid-template-rows: repeat(2, max-content);
+  grid-gap: 48px 40px;
+}
+
+.places__place:last-of-type {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
   .places__place {
-    grid-template-columns: 42.96875vw 1fr;
-    grid-column-gap: 2rem;
+    grid-gap: 48px 32px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .places__place {
-    grid-template-columns: 340px 1fr;
-    grid-column-gap: 1.75rem;
+    grid-gap: 48px 28px;
+    padding-bottom: 72px;
   }
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 767px) {
   .places__place {
+    grid-gap: 32px;
+    padding-bottom: 50px;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, min-content);
+    grid-template-rows: repeat(4, max-content);
   }
 }

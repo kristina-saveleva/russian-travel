@@ -1,7 +1,13 @@
-.places__url{
-  margin: 0;
-  color: #fff;
+.places__url {
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
-  text-decoration: none;
-  border-bottom: 1px solid #fff;
+  line-height: 22px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #fff;
+}
+
+.places__url:hover {
+  opacity: 0.8;
 }

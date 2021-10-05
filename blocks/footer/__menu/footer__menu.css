@@ -15,7 +15,7 @@
   .footer__menu {
     grid-template-columns: min-content;
     grid-template-rows: repeat(5, min-content);
-    grid-row-gap: 2rem;
+    grid-row-gap: 27px;
     font-size: 1.5rem;
     line-height: normal;
   }
